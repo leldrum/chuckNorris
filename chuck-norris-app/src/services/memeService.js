@@ -213,6 +213,7 @@ const drawTextOnImage = (imageData, text0, text1) => {
         ctx.textAlign = 'center'
         ctx.textBaseline = 'top'
         
+        
         const wrapText = (text) => {
           const words = text.split(' ')
           const lines = []
